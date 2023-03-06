@@ -17,9 +17,11 @@ const teamMemebers = []
 
 
 const appMenu = () => {
-
-
     function buildTeam() {
+        if(!fs.existsSync(OUTPUT_DIR)) {
+            fs.makdirSync(OUTPUT_DIR)
+        }
+        fs.writeFileSync(outputPath, render(teamMemebers), 'utf-8');
 
     }
 
