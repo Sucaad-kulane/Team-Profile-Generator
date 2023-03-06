@@ -51,9 +51,9 @@ const appMenu = () => {
             },
         ]).then(answers => {
             const engineer = new Intern (answers.internName, answers.internId, answers.internEmail, answers.internSchool);
-            teamMemebers.push(engineer);
-            idList.push(answers.engineerId);
-            console.log(engineer);
+            teamMemebers.push(Intern);
+            idList.push(answers.internId);
+           // console.log(Intern);
             createTeam()
 
         })
