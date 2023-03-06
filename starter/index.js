@@ -55,7 +55,6 @@ const appMenu = () => {
         );
         teamMembers.push(intern);
         idList.push(answers.internId);
-        //console.log(intern);
         createTeam();
       });
   }
@@ -93,7 +92,6 @@ const appMenu = () => {
         );
         teamMembers.push(engineer);
         idList.push(answers.engineerId);
-        //console.log(engineer);
         createTeam();
       });
   }
@@ -114,13 +112,13 @@ const appMenu = () => {
       ])
       .then((userChoice) => {
         if (userChoice.memberChoice === "Engineer") {
-          // Add Engineer
+          
           addEngineer();
         } else if (userChoice.memberChoice === "Intern") {
-          // Add Intern
+        
           addIntern();
         } else {
-          // build team function
+        
           buildTeam();
         }
       });
@@ -164,7 +162,7 @@ const appMenu = () => {
           answers.managerEmail,
           answers.managerOfficeNumber
         );
-        //console.log(manager);
+
         teamMembers.push(manager);
         idList.push(answers.managerId);
         createTeam();
