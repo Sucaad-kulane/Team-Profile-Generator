@@ -48,7 +48,9 @@ In addition to Employee's properties and methods, Intern will also have the foll
   Email
   School
 
-## When a user decides to finish building their team, the user exits the application, and the HTML is generated. When render function has passed array containing all employee objects, render funtionwill generate HTML template for each employee.
+When a user decides to finish building their team, the user exits the application, and the HTML is generated. When render function has passed array containing all employee objects, render funtion will generate HTML template for each employee. The HTML webpage titled "My Team" features three boxes listing employee names, titles, and other key 
+info.
 
-## HTML webpage titled "My Team" features three boxes listing employee names, titles, and other key info.
+## Deployed page 
+https://sucaad-kulane.github.io/Team-Profile-Generator/
 
