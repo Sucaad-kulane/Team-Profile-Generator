@@ -51,6 +51,14 @@ In addition to Employee's properties and methods, Intern will also have the foll
 When a user decides to finish building their team, the user exits the application, and the HTML is generated. When render function has passed array containing all employee objects, render funtion will generate HTML template for each employee. The HTML webpage titled "My Team" features three boxes listing employee names, titles, and other key 
 info.
 
+
+## Sample of the page 
+
+![](2023-03-07-22-15-24.png)
+
+
+
+
 ## Deployed page 
 https://sucaad-kulane.github.io/Team-Profile-Generator/
 
