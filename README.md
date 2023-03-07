@@ -52,7 +52,7 @@ When a user decides to finish building their team, the user exits the applicatio
 info.
 
 
-## Sample of the page 
+## screenshot of the page 
 
 ![](2023-03-07-22-15-24.png)
 
